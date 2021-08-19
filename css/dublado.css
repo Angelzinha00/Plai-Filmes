@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+
+    background-color: rgb(19, 18, 18);
+}
+header#cabecalho{
+
+    width: 1368px;
+    height: 65px;
+    background-color: rgba(255, 169, 249, 0.842);
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+    
+}
+header#cabecalho img{
+
+    width: 180px;
+    left: 30px;
+    position: relative;
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+
+    
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 870px;
+}
+nav#menu li{
+
+    display: inline-block;
+    background-color: rgba(228, 201, 255, 0.685) ;
+    padding: 5px;
+    margin: -2px;
+    
+}
+section#video video{
+
+    margin-top: 20px;
+    
+}
+section#video p{
+
+    color: blanchedalmond;
+    font-size: 30px;
+}
